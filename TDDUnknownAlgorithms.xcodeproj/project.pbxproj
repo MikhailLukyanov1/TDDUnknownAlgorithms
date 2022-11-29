@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		028A18D4293618C900C99C11 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A18D3293618C900C99C11 /* main.swift */; };
 		028A18E1293618EB00C99C11 /* TDDUnknownAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A18E0293618EB00C99C11 /* TDDUnknownAlgorithmsTests.swift */; };
+		028A18E6293619D100C99C11 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A18E5293619D100C99C11 /* functions.swift */; };
+		028A18E729361C5200C99C11 /* TDDUnknownAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A18E0293618EB00C99C11 /* TDDUnknownAlgorithmsTests.swift */; };
+		028A18E829361C5700C99C11 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A18E5293619D100C99C11 /* functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,7 @@
 		028A18D3293618C900C99C11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		028A18DE293618EB00C99C11 /* TDDUnknownAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDUnknownAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		028A18E0293618EB00C99C11 /* TDDUnknownAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDUnknownAlgorithmsTests.swift; sourceTree = "<group>"; };
+		028A18E5293619D100C99C11 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				028A18D3293618C900C99C11 /* main.swift */,
+				028A18E5293619D100C99C11 /* functions.swift */,
 			);
 			path = TDDUnknownAlgorithms;
 			sourceTree = "<group>";
@@ -172,6 +177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				028A18D4293618C900C99C11 /* main.swift in Sources */,
+				028A18E6293619D100C99C11 /* functions.swift in Sources */,
+				028A18E729361C5200C99C11 /* TDDUnknownAlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028A18E1293618EB00C99C11 /* TDDUnknownAlgorithmsTests.swift in Sources */,
+				028A18E829361C5700C99C11 /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
